@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:4200"
+  origin: "https://angular-frontend-one.vercel.app/"
 };
 
 app.use(cors(corsOptions));
