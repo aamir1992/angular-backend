@@ -3,6 +3,8 @@ const cors = require("cors");
 
 const app = express();
 
+// origin: "https://angular-frontend-ten.vercel.app"
+// origin: "http://localhost:4200"
 var corsOptions = {
   origin: "https://angular-frontend-ten.vercel.app"
 };
